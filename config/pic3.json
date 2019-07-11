@@ -1,0 +1,98 @@
+{
+    "scene": {
+        "eI" : [0.2, 0.2, 0.2],
+        "sources" : [
+            {
+                "type" : "source",
+                "name" : "source",
+                "p" : [-50, -100, 180],
+                "n" : [0, 0.5, -1],
+                "r" : 40,
+                "flux" : 2800,
+                "material" : {
+                    "color" : [1, 1, 1],
+                    "wr": 0,
+                    "wt": 0,
+                    "eda": 0,
+                    "Ks": 0,
+                    "Kt": 0.0,
+                    "Kds": 1,
+                    "Kdt": 0.0,
+                    "Ka": 0
+                }
+            },
+            {
+                "type" : "source",
+                "name" : "source",
+                "p" : [-380, -100, 100],
+                "n" : [0, 0, -1],
+                "r" : 1,
+                "flux" : 2800,
+                "material" : {
+                    "color" : [1, 1, 1],
+                    "wr": 0,
+                    "wt": 0,
+                    "eda": 0,
+                    "Ks": 0,
+                    "Kt": 0.0,
+                    "Kds": 1,
+                    "Kdt": 0.0,
+                    "Ka": 0
+                }
+            },
+            {
+                "type" : "source",
+                "name" : "source",
+                "p" : [-380, -100, 200],
+                "n" : [0, 0, -1],
+                "r" : 1,
+                "flux" : 2800,
+                "material" : {
+                    "color" : [1, 1, 1],
+                    "wr": 0,
+                    "wt": 0,
+                    "eda": 0,
+                    "Ks": 0,
+                    "Kt": 0.0,
+                    "Kds": 1,
+                    "Kdt": 0.0,
+                    "Ka": 0
+                }
+            }
+        ],
+        "objs" : [       
+            {
+                "type" : "mesh",
+                "name" : "room",
+                "mesh_path" : "OBJ-Models/room.ply",
+                "texture_dir" : "./texture",
+                "p" : [0, 0, 0],
+                "material" : {
+                    "color": [1, 1, 1],
+                    "wr": 0.0,
+                    "wt": 0.0,
+                    "eda": 1,
+                    "Ks": 0.0,
+                    "Kt": 0.0,
+                    "Kds": 1,
+                    "Kdt": 0.0,
+                    "Ka": 0
+                }
+            }
+        ]
+    },
+    "render": {
+        "width" : 2560,
+        "height" : 1920,
+        "view_p" : [200, 0, 0],
+        "view_n" : [-1, 0, 0],
+        "eye_pos" : [1000, 0, -30],
+        "aperture" : 0,
+        "focus" : 1000,
+        "max_iter" : 6000,
+        "sample_num" : 300000,
+        "alpha" : 0.7,
+        "gamma" : 0.5,
+        "vp_sample" : 1
+    }
+}

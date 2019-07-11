@@ -1,0 +1,299 @@
+{
+    "scene": {
+        "eI" : [0.2, 0.2, 0.2],
+        "sources" : [
+            {
+                "type" : "source",
+                "name" : "source",
+                "p" : [-100, 50, 129],
+                "n" : [0, 0, -1],
+                "r" : 50,
+                "material" : {
+                    "color" : [1, 1, 1],
+                    "wr": 0,
+                    "wt": 0,
+                    "eda": 0,
+                    "Ks": 0,
+                    "Kt": 0.0,
+                    "Kds": 1,
+                    "Kdt": 0.0,
+                    "Ka": 0
+                }
+            }
+        ],
+        "objs" : [       
+            {
+                "type" : "plane",
+                "name" : "down",
+                "p" : [600, -100, -100],
+                "n" : [0, 0, 1],
+                "material" : {
+                    "color": [1, 1, 1],
+                    "wr": 1,
+                    "wt": 0,
+                    "eda": 1,
+                    "Ks": 0,
+                    "Kt": 0.0,
+                    "Kds": 1,
+                    "Kdt": 0.1,
+                    "Ka": 1,
+                    "texture": "./texture/oak.jpg",
+                    "texture_x_dir" : [-1, 1, 0],
+                    "texture_h" : 1200,
+                    "texture_w" : 1200
+                } 
+            },
+            {
+                "type" : "plane",
+                "name" : "front",
+                "p" : [2000, 0, 0],
+                "n" : [1, 0, 0],
+                "material" : {
+                    "color": [0.7, 0.7, 0.7],
+                    "wr": 1,
+                    "wt": 0.0,
+                    "eda": 1,
+                    "Ks": 0,
+                    "Kt": 0.0,
+                    "Kds": 1,
+                    "Kdt": 0.0,
+                    "Ka": 1
+                } 
+            },     
+            {
+                "type" : "plane",
+                "name" : "up",
+                "p" : [0, 0, 130],
+                "n" : [0, 0, 1],
+                "material" : {
+                    "color": [0.0, 0.7, 0.7],
+                    "wr": 0.0,
+                    "wt": 0.0,
+                    "eda": 1,
+                    "Ks": 0,
+                    "Kt": 0.0,
+                    "Kds": 1,
+                    "Kdt": 0.0,
+                    "Ka": 1
+                } 
+            },
+            {
+                "type" : "plane",
+                "name" : "right",
+                "p" : [-660, -112, 130],
+                "n" : [-1.2, 1, 0],
+                "material" : {
+                    "color": [0.7, 0.7, 0.7],
+                    "wr": 0.0,
+                    "wt": 0.0,
+                    "eda": 1,
+                    "Ks": 0,
+                    "Kt": 0.0,
+                    "Kds": 1,
+                    "Kdt": 0.0,
+                    "Ka": 1,
+                    "texture": "./texture/stan.jpg",
+                    "texture_x_dir" : [1, 0, 0],
+                    "texture_h" : 300,
+                    "texture_w" : 150
+                }
+            },
+            {
+                "type" : "plane",
+                "name" : "left",
+                "p" : [-650, -50, 110],
+                "n" : [0.2, 1, 0],
+                "material" : {
+                    "color": [0.86, 0.87, 0.82],
+                    "wr": 0.0,
+                    "wt": 0.0,
+                    "eda": 1,
+                    "Ks": 0,
+                    "Kt": 0.0,
+                    "Kds": 1,
+                    "Kdt": 0.0,
+                    "Ka": 1,
+                    "texture": "./texture/shendun.jpg",
+                    "texture_x_dir" : [0, -1, 0],
+                    "texture_h" : 150,
+                    "texture_w" : 40
+                } 
+            },
+            {
+                "type" : "mesh",
+                "name" : "ironman",
+                "mesh_path" : "OBJ-Models/lego.ply",
+                "texture_dir" : "./texture",
+                "p" : [-100, 20, 0],
+                "material" : {
+                    "color": [1, 1, 1],
+                    "wr": 0.0,
+                    "wt": 0.0,
+                    "eda": 1,
+                    "Ks": 0,
+                    "Kt": 0.0,
+                    "Kds": 1,
+                    "Kdt": 0.0,
+                    "Ka": 0
+                }
+            },
+            {
+                "type" : "mesh",
+                "name" : "spiderman",
+                "mesh_path" : "OBJ-Models/spiderman.ply",
+                "texture_dir" : "./texture",
+                "p" : [-80, -120, -5],
+                "material" : {
+                    "color": [1, 1, 1],
+                    "wr": 0.0,
+                    "wt": 0.0,
+                    "eda": 1,
+                    "Ks": 0,
+                    "Kt": 0.0,
+                    "Kds": 1,
+                    "Kdt": 0.0,
+                    "Ka": 0
+                }
+            },
+            {
+                "type" : "ball",
+                "name" : "power",
+                "c" : [0, -50, -90],
+                "r" : 10,
+                "material" : {
+                    "color": [0.48, 0.22, 0.46],
+                    "wr": 0.0,
+                    "wt": 1.0,
+                    "eda": 1.5,
+                    "Ks": 0.0,
+                    "Kt": 0.0,
+                    "Kds": 0.0,
+                    "Kdt": 0.0,
+                    "Ka": 0.0
+                }
+            },
+            {
+                "type" : "ball",
+                "name" : "time",
+                "c" : [-150, 120, -90],
+                "r" : 10,
+                "material" : {
+                    "color": [0.0, 1, 0.0],
+                    "wr": 0.0,
+                    "wt": 0.0,
+                    "eda": 1.5,
+                    "Ks": 1.0,
+                    "Kt": 0.0,
+                    "Kds": 0.0,
+                    "Kdt": 0.0,
+                    "Ka": 0.0
+                }
+            },
+            {
+                "type" : "ball",
+                "name" : "space",
+                "c" : [-150, -20, -90],
+                "r" : 10,
+                "material" : {
+                    "color": [1.00, 0.75, 0.24],
+                    "wr": 0.0,
+                    "wt": 0.0,
+                    "eda": 1.5,
+                    "Ks": 1.0,
+                    "Kt": 0.0,
+                    "Kds": 0.0,
+                    "Kdt": 0.0,
+                    "Ka": 0.0
+                }
+            },
+            {
+                "type" : "ball",
+                "name" : "soal",
+                "c" : [60, 40, -90],
+                "r" : 10,
+                "material" : {
+                    "color": [0.0, 0.5, 1.0],
+                    "wr": 0.0,
+                    "wt": 0.0,
+                    "eda": 1.5,
+                    "Ks": 1.0,
+                    "Kt": 0.0,
+                    "Kds": 0.0,
+                    "Kdt": 0.0,
+                    "Ka": 0.0
+                }
+            },
+            {
+                "type" : "ball",
+                "name" : "mind",
+                "c" : [130, -100, -90],
+                "r" : 10,
+                "material" : {
+                    "color": [0.0, 1.0, 1.0],
+                    "wr": 0.0,
+                    "wt": 0.0,
+                    "eda": 1.5,
+                    "Ks": 1.0,
+                    "Kt": 0.0,
+                    "Kds": 0.0,
+                    "Kdt": 0.0,
+                    "Ka": 0.0
+                }
+            },
+            {
+                "type" : "ball",
+                "name" : "reality",
+                "c" : [120, 120, -90],
+                "r" : 10,
+                "material" : {
+                    "color": [0.0, 0.0, 1.0],
+                    "wr": 0.0,
+                    "wt": 1.0,
+                    "eda": 1.5,
+                    "Ks": 0.0,
+                    "Kt": 0.0,
+                    "Kds": 0.0,
+                    "Kdt": 0.0,
+                    "Ka": 0.0
+                }
+            },
+            {
+                "type" : "sub_ball",
+                "name" : "shield",
+                "c" : [-400, -60, -80],
+                "r" : 80,
+                "dir" : [1.2, 0.5, 1],
+                "cos_theta" : 0.6,
+                "material" : {
+                    "color": [0.8, 0.2, 0.2],
+                    "wr": 0,
+                    "wt": 0,
+                    "eda": 1.5,
+                    "Ks": 0,
+                    "Kt": 0.0,
+                    "Kds": 1,
+                    "Kdt": 0.0,
+                    "Ka": 0.0,
+                    "texture": "./texture/cap2.jpg",
+                    "texture_x" : 512,
+                    "texture_y" : 512,
+                    "texture_r" : 350
+                }
+            }
+        ]
+    },
+    "render": {
+        "width" : 2560,
+        "height" : 1920,
+        "view_p" : [200, 0, 0],
+        "view_n" : [-1, 0, 0],
+        "eye_pos" : [1000, 0, -30],
+        "aperture" : 0,
+        "focus" : 900,
+        "max_iter" : 6000,
+        "sample_num" : 300000,
+        "alpha" : 0.7,
+        "gamma" : 0.5,
+        "vp_sample" : 1
+    }
+}

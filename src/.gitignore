@@ -1,0 +1,6 @@
+.vscode/*
+*.o
+main
+test
+*.un~
+*.swp

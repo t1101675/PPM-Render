@@ -1,0 +1,369 @@
+{
+    "scene": {
+        "eI" : [0.2, 0.2, 0.2],
+        "sources" : [
+            {
+                "type" : "source",
+                "name" : "source",
+                "p" : [-57.5, 64.5, -81.5],
+                "n" : [1, -1, 0.55],
+                "r" : 7.5,
+                "flux" : 2800,
+                "material" : {
+                    "color" : [1, 1, 1],
+                    "wr": 0,
+                    "wt": 0,
+                    "eda": 0,
+                    "Ks": 0,
+                    "Kt": 0.0,
+                    "Kds": 1,
+                    "Kdt": 0.0,
+                    "Ka": 0
+                }
+            },
+            {
+                "type" : "source",
+                "name" : "source",
+                "p" : [-53, -64, -81.5],
+                "n" : [1, 1, 0.55],
+                "r" : 7.5,
+                "flux" : 2800,
+                "material" : {
+                    "color" : [1, 1, 1],
+                    "wr": 0,
+                    "wt": 0,
+                    "eda": 0,
+                    "Ks": 0,
+                    "Kt": 0.0,
+                    "Kds": 1,
+                    "Kdt": 0.0,
+                    "Ka": 0
+                }
+            },
+            {
+                "type" : "source",
+                "name" : "source",
+                "p" : [71, -64, -81],
+                "n" : [-0.7, 1, 0.6],
+                "r" : 7,
+                "flux" : 2800,
+                "material" : {
+                    "color" : [1, 1, 1],
+                    "wr": 0,
+                    "wt": 0,
+                    "eda": 0,
+                    "Ks": 0,
+                    "Kt": 0.0,
+                    "Kds": 1,
+                    "Kdt": 0.0,
+                    "Ka": 0
+                }
+            },
+            {
+                "type" : "source",
+                "name" : "source",
+                "p" : [71, 64, -81],
+                "n" : [-0.7, -1, 0.6],
+                "r" : 7,
+                "flux" : 2800,
+                "material" : {
+                    "color" : [1, 1, 1],
+                    "wr": 0,
+                    "wt": 0,
+                    "eda": 0,
+                    "Ks": 0,
+                    "Kt": 0.0,
+                    "Kds": 1,
+                    "Kdt": 0.0,
+                    "Ka": 0
+                }
+            }
+
+        ],
+        "objs" : [       
+            {
+                "type" : "plane",
+                "name" : "down",
+                "p" : [-200, -160, -100],
+                "n" : [0, 0, 1],
+                "material" : {
+                    "color": [1, 1, 1],
+                    "wr": 1,
+                    "wt": 0,
+                    "eda": 1,
+                    "Ks": 0,
+                    "Kt": 0.0,
+                    "Kds": 1,
+                    "Kdt": 0.1,
+                    "Ka": 1,
+                    "texture": "./texture/oak.jpg",
+                    "texture_x_dir" : [1, 0, 0],
+                    "texture_h" : 1200,
+                    "texture_w" : 1200
+                } 
+            },
+            {
+                "type" : "plane",
+                "name" : "front",
+                "p" : [205, 0, 0],
+                "n" : [1, 0, 0],
+                "material" : {
+                    "color": [1, 1, 1],
+                    "wr": 1,
+                    "wt": 0.0,
+                    "eda": 1,
+                    "Ks": 0,
+                    "Kt": 0.0,
+                    "Kds": 1,
+                    "Kdt": 0.0,
+                    "Ka": 1
+                } 
+            },
+            {
+                "type" : "plane",
+                "name" : "up",
+                "p" : [0, 0, 130],
+                "n" : [0, 0, 1],
+                "material" : {
+                    "color": [1, 1, 1],
+                    "wr": 0.0,
+                    "wt": 0.0,
+                    "eda": 1,
+                    "Ks": 0,
+                    "Kt": 0.0,
+                    "Kds": 1,
+                    "Kdt": 0.0,
+                    "Ka": 1
+                } 
+            },
+            {
+                "type" : "plane",
+                "name" : "back",
+                "p" : [-200, -160, 130],
+                "n" : [1, 0, 0],
+                "material" : {
+                    "color": [1, 1, 1],
+                    "wr": 0.0,
+                    "wt": 0.0,
+                    "eda": 1,
+                    "Ks": 0,
+                    "Kt": 0.0,
+                    "Kds": 1,
+                    "Kdt": 0.0,
+                    "Ka": 1
+                }
+            },
+            {
+                "type" : "plane",
+                "name" : "right",
+                "p" : [230, 140, 130],
+                "n" : [0, 1, 0],
+                "material" : {
+                    "color": [1, 1, 1],
+                    "wr": 0.0,
+                    "wt": 0.0,
+                    "eda": 1,
+                    "Ks": 0,
+                    "Kt": 0.0,
+                    "Kds": 1,
+                    "Kdt": 0.0,
+                    "Ka": 1
+                }
+            },
+            {
+                "type" : "plane",
+                "name" : "left",
+                "p" : [0, -140, 0],
+                "n" : [0, 1, 0],
+                "material" : {
+                    "color": [1, 1, 1],
+                    "wr": 0.0,
+                    "wt": 0.0,
+                    "eda": 1,
+                    "Ks": 0,
+                    "Kt": 0.0,
+                    "Kds": 1,
+                    "Kdt": 0.0,
+                    "Ka": 1
+                } 
+            },
+            {
+                "type" : "bezier",
+                "name" : "vase",
+                "pos" : [0, 0, -85],
+                "n" : 9,
+                "d_num" : 9,
+                "r" : 0.365,
+                "px" : [20, 27, 30, 30, 30, 25, 20, 15, 30],
+                "py" : [0, 0, 10, 20, 30, 40, 60, 70, 80],
+                "material" : {
+                    "color": [0.8, 0.4, 0.8],
+                    "wr": 0.0,
+                    "wt": 0.0,
+                    "eda": 1,
+                    "Ks": 0.6,
+                    "Kt": 0.0,
+                    "Kds": 0.4,
+                    "Kdt": 0.0,
+                    "Ka": 1,
+                    "texture": "./texture/vase.png"
+                }
+            },
+            {
+                "type" : "mesh",
+                "name" : "light1",
+                "mesh_path" : "OBJ-Models/stage_light.ply",
+                "texture_dir" : "./texture",
+                "p" : [-70, 40, -100],
+                "material" : {
+                    "color": [1, 1, 1],
+                    "wr": 0.0,
+                    "wt": 0.0,
+                    "eda": 1,
+                    "Ks": 0.5,
+                    "Kt": 0.0,
+                    "Kds": 0.5,
+                    "Kdt": 0.0,
+                    "Ka": 0
+                }
+            },
+            {
+                "type" : "mesh",
+                "name" : "light2",
+                "mesh_path" : "OBJ-Models/stage_light2.ply",
+                "texture_dir" : "./texture",
+                "p" : [75, 40, -100],
+                "material" : {
+                    "color": [1, 1, 1],
+                    "wr": 0.0,
+                    "wt": 0.0,
+                    "eda": 1,
+                    "Ks": 0.5,
+                    "Kt": 0.0,
+                    "Kds": 0.5,
+                    "Kdt": 0.0,
+                    "Ka": 0
+                }
+            },
+            {
+                "type" : "mesh",
+                "name" : "light3",
+                "mesh_path" : "OBJ-Models/stage_light3.ply",
+                "texture_dir" : "./texture",
+                "p" : [93, -102, -100],
+                "material" : {
+                    "color": [1, 1, 1],
+                    "wr": 0.0,
+                    "wt": 0.0,
+                    "eda": 1,
+                    "Ks": 0.5,
+                    "Kt": 0.0,
+                    "Kds": 0.5,
+                    "Kdt": 0.0,
+                    "Ka": 0
+                }
+            },
+            {
+                "type" : "mesh",
+                "name" : "light4",
+                "mesh_path" : "OBJ-Models/stage_light4.ply",
+                "texture_dir" : "./texture",
+                "p" : [-70, -102, -100],
+                "material" : {
+                    "color": [1, 1, 1],
+                    "wr": 0.0,
+                    "wt": 0.0,
+                    "eda": 1,
+                    "Ks": 0.5,
+                    "Kt": 0.0,
+                    "Kds": 0.5,
+                    "Kdt": 0.0,
+                    "Ka": 0
+                }
+            },
+            {
+                "type" : "mesh",
+                "name" : "paint",
+                "mesh_path" : "OBJ-Models/mona_Lisa.ply",
+                "texture_dir" : "./texture",
+                "p" : [-195, -10, -10],
+                "material" : {
+                    "color": [1, 1, 1],
+                    "wr": 0.0,
+                    "wt": 0.0,
+                    "eda": 1,
+                    "Ks": 0.5,
+                    "Kt": 0.0,
+                    "Kds": 0.5,
+                    "Kdt": 0.0,
+                    "Ka": 0
+                }
+            },
+            {
+                "type" : "ball",
+                "name" : "ball1",
+                "c" : [-25, 18, -95],
+                "r" : 10,
+                "material" : {
+                    "color": [0.0, 0.5, 1.0],
+                    "wr": 0.0,
+                    "wt": 1.0,
+                    "eda": 1.5,
+                    "Ks": 0.0,
+                    "Kt": 0.0,
+                    "Kds": 0.0,
+                    "Kdt": 0.0,
+                    "Ka": 0.0
+                }
+            },
+            {
+                "type" : "ball",
+                "name" : "ball2",
+                "c" : [-25, -18, -95],
+                "r" : 10,
+                "material" : {
+                    "color": [0.0, 0.5, 1.0],
+                    "wr": 0.0,
+                    "wt": 1.0,
+                    "eda": 1.5,
+                    "Ks": 0.0,
+                    "Kt": 0.0,
+                    "Kds": 0.0,
+                    "Kdt": 0.0,
+                    "Ka": 0.0
+                }
+            },
+            {
+                "type" : "ball",
+                "name" : "ball3",
+                "c" : [28, 0, -95],
+                "r" : 10,
+                "material" : {
+                    "color": [0.0, 0.5, 1.0],
+                    "wr": 0.0,
+                    "wt": 1.0,
+                    "eda": 1.5,
+                    "Ks": 0.0,
+                    "Kt": 0.0,
+                    "Kds": 0.0,
+                    "Kdt": 0.0,
+                    "Ka": 0.0
+                }
+            }
+        ]
+    },
+    "render": {
+        "width" : 2560,
+        "height" : 1920,
+        "view_p" : [200, 0, 0],
+        "view_n" : [-1, 0, 0],
+        "eye_pos" : [1000, 0, -30],
+        "aperture" : 1,
+        "focus" : 1000,
+        "max_iter" : 6000,
+        "sample_num" : 300000,
+        "alpha" : 0.7,
+        "gamma" : 0.5,
+        "vp_sample" : 1
+    }
+}
